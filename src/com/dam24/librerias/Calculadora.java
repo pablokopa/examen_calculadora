@@ -11,6 +11,7 @@ public class Calculadora {
     final static int RESTA=2;
     final static int MULTIPLICACION=3;
     final static int DIVISION=4;
+    final static int RAIZ=5;
     /**
      * Salida por ventana o consala de un mensaje
      *
@@ -37,6 +38,19 @@ public class Calculadora {
                 } catch (ArithmeticException E){
                     resultado=null;
                 } break;
+            case RAIZ:
+                if (num2==2){
+                    resultado = (float)(Math.sqrt(num1));
+                    break;
+                }
+                else if (num2 == 3){
+                    resultado = (float)(Math.cbrt(num1));
+                    break;
+                }
+                else{
+                    resultado = null;
+                    break;
+                }
             default:
                 resultado=null;
                 break;
