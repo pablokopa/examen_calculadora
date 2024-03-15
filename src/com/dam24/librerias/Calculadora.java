@@ -11,6 +11,7 @@ public class Calculadora {
     final static int RESTA=2;
     final static int MULTIPLICACION=3;
     final static int DIVISION=4;
+    final static int RAIZ=5;
     /**
      * Salida por ventana o consala de un mensaje
      *
