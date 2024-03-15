@@ -10,3 +10,5 @@
 En main class se deja vacío para utilizarlo como librería.
 9. Finalmente se irá a Build > Build Artifacts para crear el .jar.
 10. Creo el release en github con la libreria.
+
+El merge-squash está hecho en el commit 'añadida libreria calculadora', ya que me confundí la primera vez al hacerlo y tuve que crear un nuevo repositorio.
